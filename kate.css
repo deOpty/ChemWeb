@@ -1,0 +1,288 @@
+*{margin:0;
+padding:0;
+}
+body{
+	
+	border: 15px groove #e20c9e;
+	background:url(kk.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	
+
+}
+.banner{
+	height:200px;
+	border:15px groove white;
+	margin:0px;
+	padding:5px;
+	background:white;
+	position:;
+}
+.banner h1{
+	font-family:Algerian;
+	font-size:4em;
+	text-align:center;
+	text-decoration:10px dotted underline;
+	text-shadow:10px bottom;
+	font-stretch:20px;
+	color:#e20c9e;
+}
+
+.menupart{
+	text-align:center;
+	border:5px groove white;
+	margin-top:10px;
+	background-color:#e20c9e;
+	margin-bottom:5px;
+}
+.menupart ul{
+	display:inline-flex;
+}
+.menupart ul li{
+	list-style:none;
+	color:#000000;
+	margin:10px;
+	padding:15px;
+	
+}
+.menupart ul li a{
+	text-decoration:none;
+	color:#000000;
+	font-family:Algerian;
+	font-size:20px;
+	
+}
+	
+#active,.menupart ul li:hover{
+	background:white;
+	border-radius:4px;
+}
+
+.sub1{
+	display:none;
+}
+.menupart ul li:hover .sub1{
+	display:block;
+	position: absolute;
+	background:#e20c9e;
+	margin-top: 10px;
+	margin-left:5px;
+}
+.menupart ul li:hover .sub1 ul{
+	display:block;
+}
+.menupart ul li:hover .sub1 ul li{
+	border-bottom:2px dashed white;
+	width: 200px;
+	padding:10px;
+	background:none;
+	border-radius:0px;
+	text-align:left;
+}
+.menupart ul li:hover .sub1 ul li:last-child{
+	border-bottom:none;
+}
+.menupart ul li:hover .sub1 ul li a:hover{
+		background:white;
+border-radius:4px;
+color:#e20c9e;
+padding:10px;
+}
+
+.sub2{
+	display:none;
+}
+.pc:hover .sub2{
+	display:block;
+	position:absolute;
+	margin-left:80px;
+	margin-top:8px;
+	background:#e20c9e;
+}
+.pc:hover .sub2:last-child{
+	border-bottom:none;
+}
+
+.content{
+	margin-top:10px;  
+}
+.content .gif{
+	width:381px;
+	height:481px;
+	border-style:none;
+	float:left;
+	background:url(kate.gif);
+	background-repeat:no-repeat;
+	background-color:none;
+	margin:10px;
+	
+}
+.content .quotepart{
+	margin-top:10px;
+	width:350px;
+	height:750px;
+	border:10px groove black;
+	float:right;
+}
+.quotepart .quote{
+	border:10px inset #6be2e4;
+	width:300px;
+	height:620px;
+	margin:10px;
+	padding:5px;
+}
+.content .quotepart h1{
+	color:#9a0169;
+	font-family:Algerian;
+	font-size:2em;
+	text-align:center;
+	text-decoration:10px dotted underline;
+}
+.quote p{
+	font-family: Times New Romans;
+	font-size:25px;
+	color:#110751;
+	padding:10px;
+	
+}
+
+.life{
+	width:900px;
+	height:450px;
+	border:10px groove orange;
+	left:0px;
+	margin-top:20px;
+	padding:10px;
+	background:#ce8ad7;
+}
+.life h1{
+	color:#9a0169;
+	font-family:Algerian;
+	font-size:2em;
+	text-align:center;
+	text-decoration:10px double underline;
+}
+
+.clr{
+	clear:both;
+}
+
+
+.flowpics{
+	width:;
+	height:1130px;
+	border: 15px double #efeb0f;
+	margin-top:1200px;
+	border-radius:2px;
+}
+.flowpics h1{
+	color:#9a0169;
+	font-family:Algerian;
+	font-size:3em;
+	text-align:center;
+	text-decoration:10px dotted underline;
+}
+.flowpics #sidepics{
+	height:800px;
+	border:10px goove;
+	margin-top:;
+}
+#sidepics .pic2{
+	border:10px groove red;
+}
+
+
+.Academic{
+	background:;
+	width:;
+	height:600px;
+	border:10px outset #ef7408;
+	margin-top:100px;
+	background-position:center;
+}
+.Academic h1{
+	color:#9a0169;
+	font-family:Algerian;
+	font-size:2.5em;
+	text-align:center;
+	text-decoration:7px double underline;
+}
+
+
+.oldpics{
+	height:682px;
+	border:10px ridge pink;
+	margin-top:120px;
+}
+.oldpics h1{
+	font-family: Algerian;
+	font-size:3em;
+	text-align:center;
+	text-decoration:10px dotted underline;
+	color:#9a0169;
+}
+.oldpics .sometime{
+	height:600px;
+	border:;
+}
+
+
+.base1{
+	margin-top:250px;
+	height:340px;
+	border:5px dashed green;
+	background:#e6fa96;
+	padding:5px;
+	margin:5px;
+}
+.base1 .bb1{
+	float:left;
+	padding:10px;
+	margin:15px;
+	background:white;
+}
+.base1 h1{
+	margin:10px;
+	padding:5px;
+	font-size:3em;
+	color:#0b0245;
+	font-family:Algerian;
+	text-decoration:10px double underline;
+}
+.base1 p{
+	font-family: Arial black;
+	font-size:2.5em;
+	text-decoration:5px dotted underline;
+	text-align:;
+	padding:5px;
+}
+.base1 .bb2{
+	float:right;
+	background:white;
+	padding:10px;
+	margin:15px;	
+}
+
+
+
+
+.clr{
+	clear:both;
+}
+
+#footer{
+	margin-top:;
+	position:bottom;
+	margin:5px;
+	padding:10px;
+}
+#footer #button{
+	margin:10px;
+	padding:5px;
+	color:#9a0169;
+	font-family:Algerian;
+	font-size:25px;
+	background-color:white;
+	text-decoration:none;
+}
